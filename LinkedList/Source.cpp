@@ -215,10 +215,12 @@ bool test_linklist()
 	// Checks if the minimum function finds the real minimum value
 	if (test_list.minimum()->get_data()==6)
 	{
+		std::cout << "\nIs the minimum value 6?: " << std::endl;
 		std::cout << "Test passed! " << std::endl;
 	}
 	else
 	{
+		std::cout << "\nIs the minimum value 6?: " << std::endl;
 		std::cout << "Test failed! " << std::endl;
 		pass = false;
 	}
@@ -226,10 +228,12 @@ bool test_linklist()
 	// Checks if the maximum function finds the real maximum value
 	if (test_list.maximum()->get_data()==10)
 	{
+		std::cout << "\nIs the maximum value 6?: " << std::endl;
 		std::cout << "Test passed! " << std::endl;
 	}
 	else
 	{
+		std::cout << "\nIs the maximum value 6?: " << std::endl;
 		std::cout << "Test failed! " << std::endl;
 		pass = false;
 	}
